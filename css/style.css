@@ -1,0 +1,32 @@
+body {
+  background-color: bisque;
+  color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 50px;
+}
+
+img {
+  width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2, p{
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.main-nav {
+  font-size: 24px;
+  text-align: center;
+}
