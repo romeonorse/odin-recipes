@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   background-color: bisque;
   color: blueviolet;
@@ -10,16 +14,18 @@ img {
   width: 600px;
   border-radius: 10px;
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
+  margin: 20px 0;
 }
 
 h2, p{
   text-align: center;
+  margin: 10px 0;
 }
 
 h2 {
@@ -29,4 +35,20 @@ h2 {
 .main-nav {
   font-size: 24px;
   text-align: center;
+  list-style: none;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+a:hover {
+  text-decoration: underline;
 }
